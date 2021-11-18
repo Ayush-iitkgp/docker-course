@@ -1,3 +1,5 @@
+# Using alpine (latest version) as the base image
 FROM alpine:latest
 
-CMD echo "Hello From Alpine"
+# run the command echo hello from alpine
+CMD echo "Hello from Alpine"
