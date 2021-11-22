@@ -6,3 +6,6 @@ This repositoy contains the code while learning from Udemy course (ttps://adfint
 
 2. Run the docker container
 `docker container run image-name:tag`
+
+3. Pass the parameters as CMD while running the  docker container
+`docker container run image-name:tag CMD`
