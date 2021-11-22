@@ -18,3 +18,9 @@ This repositoy contains the code while learning from Udemy course (https://adfin
 
 6. Stop a particular docker container
 `docker container stop container-id`
+
+7. Build a docker file with a different name using -f tag
+`docker build -f docker-file-name . -t image-name:tag`
+
+8. Build a docker image from a remote URL
+`docker build URL -t image-name:tag`
