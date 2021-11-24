@@ -28,3 +28,8 @@ This repositoy contains the code while learning from Udemy course (https://adfin
 9. Mount a volume on the container while running
 `docker container run -p 8080:80 -v source-path:docker-path -t image-name:tag`
 
+10. Rename a docker image
+`docker image tag old-name:old-tag new-image:new-tag`
+
+11. Exec inside a running docker container
+`docker container exec -it container-id container-command`
