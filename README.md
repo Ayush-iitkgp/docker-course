@@ -24,3 +24,7 @@ This repositoy contains the code while learning from Udemy course (https://adfin
 
 8. Build a docker image from a remote URL
 `docker build URL -t image-name:tag`
+
+9. Mount a volume on the container while running
+`docker container run -p 8080:80 -v source-path:docker-path -t image-name:tag`
+
